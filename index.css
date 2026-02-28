@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: blue;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    gap: 50px;
+    font-family: 'Luckiest Guy', sans-serif;
+    color: white;
+}
+#cookie{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#counter{
+    font-size: 52pt;
+}
+.shop{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+.shop button{
+    font: inherit;
+    border: none;
+    background-color: #d5d5d5;
+    padding: 1em;
+    letter-spacing: 0.5em;
+}
